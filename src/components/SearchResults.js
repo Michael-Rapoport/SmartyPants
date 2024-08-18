@@ -45,3 +45,10 @@ function SearchResults() {
               <p className="mt-1 text-gray-600">{result.snippet}</p>
             </li>
           ))}
+</ul>
+      )}
+    </div>
+  );
+}
+
+export default React.memo(SearchResults);
